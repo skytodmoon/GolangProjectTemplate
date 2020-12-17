@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package billing;
+
+option go_package = "robovoice-template/internal/billing/domain";
+
+message Billing {
+  float Balance = 1;
+}
